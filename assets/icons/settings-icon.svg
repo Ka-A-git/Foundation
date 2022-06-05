@@ -1,0 +1,26 @@
+var _path, _path2;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+import * as React from "react";
+
+var SvgSettingsIcon = function SvgSettingsIcon(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    viewBox: "0 0 22 20",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M7.17681 19C6.45047 19 5.78123 18.6062 5.42849 17.9713L1.5396 10.9713C1.20402 10.3672 1.20402 9.63276 1.5396 9.02871L5.42849 2.02871C5.78123 1.39378 6.45047 1 7.17681 1H14.8232C15.5495 1 16.2188 1.39378 16.5715 2.02871L20.4604 9.02871C20.796 9.63276 20.796 10.3672 20.4604 10.9713L16.5715 17.9713C16.2188 18.6062 15.5495 19 14.8232 19H7.17681Z",
+    stroke: "currentColor",
+    strokeWidth: 2,
+    strokeMiterlimit: 10,
+    strokeLinecap: "square"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M11 14C13.2091 14 15 12.2091 15 10C15 7.79086 13.2091 6 11 6C8.79086 6 7 7.79086 7 10C7 12.2091 8.79086 14 11 14Z",
+    stroke: "currentColor",
+    strokeWidth: 2,
+    strokeMiterlimit: 10
+  })));
+};
+
+export default SvgSettingsIcon;

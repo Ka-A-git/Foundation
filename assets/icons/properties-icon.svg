@@ -1,0 +1,22 @@
+var _path;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+import * as React from "react";
+
+var SvgPropertiesIcon = function SvgPropertiesIcon(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    fill: "none",
+    height: 16,
+    viewBox: "0 0 16 16",
+    width: 16,
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    clipRule: "evenodd",
+    d: "m14.6667 1.66675c.5523 0 1 .44771 1 1 0 .55228-.4477 1-1 1h-7.02891c-.55229 0-1-.44772-1-1 0-.55229.44771-1 1-1zm-10.54316 0c.55228 0 1 .44771 1 1 0 .55228-.44772 1-1 1h-2.34299c-.55228 0-.999999-.44772-.999999-1 0-.55229.447719-1 .999999-1zm11.54316 11.54345c0-.5523-.4477-1-1-1h-7.02891c-.55229 0-1 .4477-1 1s.44771 1 1 1h7.02891c.5523 0 1-.4477 1-1zm-11.54316-1c.55228 0 1 .4477 1 1s-.44772 1-1 1h-2.34299c-.55228 0-.999999-.4477-.999999-1s.447719-1 .999999-1zm5.6853-4.27197c0-.55228-.44772-1-1-1h-7.02896c-.55228 0-.999999.44772-.999999 1 0 .55229.447719 1 .999999 1h7.02896c.55228 0 1-.44771 1-1zm4.85786-1c.5523 0 1 .44772 1 1 0 .55229-.4477 1-1 1h-2.3429c-.5523 0-1-.44771-1-1 0-.55228.4477-1 1-1z",
+    fill: "currentColor",
+    fillRule: "evenodd"
+  })));
+};
+
+export default SvgPropertiesIcon;

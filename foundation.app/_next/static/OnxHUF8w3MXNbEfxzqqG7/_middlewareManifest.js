@@ -1,0 +1,1 @@
+self.__MIDDLEWARE_MANIFEST=(function(a){return [["\u002Fcollection\u002F[addressOrSlug]",a],["\u002F[username]\u002F[contractAddress]\u002F[tokenId]",a]]}(false));self.__MIDDLEWARE_MANIFEST_CB&&self.__MIDDLEWARE_MANIFEST_CB()

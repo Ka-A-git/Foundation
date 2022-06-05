@@ -1,0 +1,18 @@
+var _path;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+import * as React from "react";
+
+var SvgLightning = function SvgLightning(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    viewBox: "0 0 12 14",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M11.9383 5.57607C11.8375 5.37659 11.6287 5.2506 11.4001 5.2506H6.67059L7.19616 0.648411C7.22616 0.388262 7.07377 0.140946 6.82418 0.0429526C6.574 -0.0562073 6.28781 0.0207875 6.12402 0.227857L0.124359 7.81067C-0.0148333 7.98683 -0.0394319 8.22481 0.0619624 8.4243C0.163357 8.62437 0.372145 8.75036 0.600732 8.75036H5.33027L4.8047 13.3525C4.7747 13.6127 4.92709 13.86 5.17668 13.958C5.24927 13.9866 5.32547 14 5.40046 14C5.58285 14 5.76044 13.9189 5.87624 13.7725L11.8759 6.1897C12.0151 6.01354 12.0391 5.77556 11.9383 5.57607Z",
+    fill: "black"
+  })));
+};
+
+export default SvgLightning;

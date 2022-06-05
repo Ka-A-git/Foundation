@@ -1,0 +1,20 @@
+var _path;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+import * as React from "react";
+
+var SvgFacebookIcon = function SvgFacebookIcon(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 24,
+    height: 24,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M24 12.0728C23.9997 9.77963 23.3424 7.53453 22.1058 5.60331C20.8692 3.67209 19.1051 2.13563 17.0225 1.17584C14.9398 0.216044 12.6257 -0.126892 10.3542 0.187628C8.08263 0.502149 5.94878 1.46095 4.20524 2.95053C2.4617 4.44011 1.18149 6.39808 0.516158 8.59265C-0.149172 10.7872 -0.171753 13.1265 0.451088 15.3335C1.07393 17.5405 2.31611 19.5228 4.03057 21.0457C5.74503 22.5687 7.85996 23.5685 10.125 23.9268V15.5418H7.078V12.0728H10.125V9.42884C10.125 6.42184 11.917 4.75984 14.657 4.75984C15.5571 4.77275 16.4552 4.85095 17.344 4.99384V7.94784H15.83C15.3742 7.88734 14.9131 8.01031 14.548 8.28972C14.1829 8.56913 13.9437 8.98211 13.883 9.43784C13.8658 9.56546 13.8632 9.69461 13.875 9.82284V12.0728H17.2L16.668 15.5418H13.868V23.9268C16.692 23.4818 19.2644 22.0432 21.1219 19.8699C22.9795 17.6967 24.0001 14.9317 24 12.0728Z",
+    fill: "black"
+  })));
+};
+
+export default SvgFacebookIcon;

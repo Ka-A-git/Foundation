@@ -1,0 +1,39 @@
+var _path, _path2, _path3, _path4;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+import * as React from "react";
+
+var SvgPrivateSale = function SvgPrivateSale(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    viewBox: "0 0 22 20",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M12.8175 5.54508L10.843 7.51959C10.1611 8.2013 9.23636 8.58425 8.27215 8.58425C7.30793 8.58425 6.38319 8.2013 5.70128 7.51959L5.54492 7.36323L10.0258 2.8824C11.2314 1.6771 12.8664 1 14.5711 1C16.2759 1 17.9109 1.6771 19.1165 2.8824V2.8824C20.1289 3.89493 20.7745 5.21639 20.9509 6.63736C21.1272 8.05832 20.8243 9.4975 20.0901 10.7268",
+    stroke: "black",
+    strokeWidth: 2,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M13.9686 8.51442L17.2531 11.7989C17.7643 12.3103 18.0516 13.0039 18.0516 13.7271C18.0516 14.4502 17.7643 15.1438 17.2531 15.6552L15.7658 17.1424C15.2593 17.649 14.658 18.0509 13.9962 18.3251C13.3343 18.5992 12.625 18.7403 11.9086 18.7403C11.1922 18.7403 10.4829 18.5992 9.82107 18.3251C9.15924 18.0509 8.55791 17.649 8.05141 17.1424L2.88241 11.9734C1.6771 10.7678 1 9.13285 1 7.42807C1 5.72329 1.6771 4.08831 2.88241 2.88269V2.88269C4.07078 1.69099 5.68033 1.01472 7.36324 1",
+    stroke: "black",
+    strokeWidth: 2,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  })), _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    d: "M16.8097 16.0987L13.2725 12.5624",
+    stroke: "black",
+    strokeWidth: 2,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  })), _path4 || (_path4 = /*#__PURE__*/React.createElement("path", {
+    d: "M14.193 18.2409L10.8931 14.9409",
+    stroke: "black",
+    strokeWidth: 2,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  })));
+};
+
+export default SvgPrivateSale;

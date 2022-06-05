@@ -1,0 +1,22 @@
+var _path;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+import * as React from "react";
+
+var SvgFeedIcon = function SvgFeedIcon(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    fill: "none",
+    height: 22,
+    viewBox: "0 0 22 22",
+    width: 22,
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    clipRule: "evenodd",
+    d: "m20 3h-18v4h18zm-18-2c-1.104569 0-2 .89543-2 2v4c0 1.10457.89543 2 2 2h18c1.1046 0 2-.89543 2-2v-4c0-1.10457-.8954-2-2-2zm19.0833 14h-20.166633c-.506 0-.916667-.448-.916667-1s.410667-1 .916667-1h20.166633c.506 0 .9167.448.9167 1s-.4107 1-.9167 1zm-20.166633 6h20.166633c.506 0 .9167-.448.9167-1s-.4107-1-.9167-1h-20.166633c-.506 0-.916667.448-.916667 1s.410667 1 .916667 1z",
+    fill: "currentColor",
+    fillRule: "evenodd"
+  })));
+};
+
+export default SvgFeedIcon;

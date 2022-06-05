@@ -1,0 +1,59 @@
+var _path, _path2, _path3, _path4, _path5, _path6, _path7, _path8;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+import * as React from "react";
+
+var SvgSplitIcon = function SvgSplitIcon(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    viewBox: "0 0 26 24",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M0 17.5557H24",
+    stroke: "currentColor",
+    strokeWidth: 2,
+    strokeMiterlimit: 10
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M0 17.5557H24",
+    stroke: "currentColor",
+    strokeWidth: 2,
+    strokeMiterlimit: 10
+  })), _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    d: "M19.4286 6.44434H10.2858C9.07337 6.44434 7.9106 6.91259 7.0533 7.74608C6.19599 8.57958 5.71436 9.71004 5.71436 10.8888V17.5555",
+    stroke: "currentColor",
+    strokeWidth: 2,
+    strokeMiterlimit: 10
+  })), _path4 || (_path4 = /*#__PURE__*/React.createElement("path", {
+    d: "M19.4286 6.44434H10.2858C9.07337 6.44434 7.9106 6.91259 7.0533 7.74608C6.19599 8.57958 5.71436 9.71004 5.71436 10.8888V17.5555",
+    stroke: "currentColor",
+    strokeWidth: 2,
+    strokeMiterlimit: 10
+  })), _path5 || (_path5 = /*#__PURE__*/React.createElement("path", {
+    d: "M19.4285 13.1113L23.9999 17.5558L19.4285 22.0002",
+    stroke: "currentColor",
+    strokeWidth: 2,
+    strokeMiterlimit: 10,
+    strokeLinecap: "square"
+  })), _path6 || (_path6 = /*#__PURE__*/React.createElement("path", {
+    d: "M19.4285 13.1113L23.9999 17.5558L19.4285 22.0002",
+    stroke: "currentColor",
+    strokeWidth: 2,
+    strokeMiterlimit: 10,
+    strokeLinecap: "square"
+  })), _path7 || (_path7 = /*#__PURE__*/React.createElement("path", {
+    d: "M14.8569 2L19.4284 6.44445L14.8569 10.8889",
+    stroke: "currentColor",
+    strokeWidth: 2,
+    strokeMiterlimit: 10,
+    strokeLinecap: "square"
+  })), _path8 || (_path8 = /*#__PURE__*/React.createElement("path", {
+    d: "M14.8569 2L19.4284 6.44445L14.8569 10.8889",
+    stroke: "currentColor",
+    strokeWidth: 2,
+    strokeMiterlimit: 10,
+    strokeLinecap: "square"
+  })));
+};
+
+export default SvgSplitIcon;

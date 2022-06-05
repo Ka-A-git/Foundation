@@ -1,0 +1,41 @@
+var _title, _g;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+import * as React from "react";
+
+var SvgSelfDestructIcon = function SvgSelfDestructIcon(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    viewBox: "0 0 24 24"
+  }, props), _title || (_title = /*#__PURE__*/React.createElement("title", null, "delete-forever")), _g || (_g = /*#__PURE__*/React.createElement("g", {
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: 2,
+    fill: "none",
+    stroke: "#F93A3A"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M20,9V21a2,2,0,0,1-2,2H6a2,2,0,0,1-2-2V9"
+  }), /*#__PURE__*/React.createElement("line", {
+    x1: 1,
+    y1: 5,
+    x2: 23,
+    y2: 5
+  }), /*#__PURE__*/React.createElement("polyline", {
+    points: "8 5 8 1 16 1 16 5"
+  }), /*#__PURE__*/React.createElement("line", {
+    x1: 15,
+    y1: 11.985,
+    x2: 9,
+    y2: 17.985,
+    stroke: "#F93A3A"
+  }), /*#__PURE__*/React.createElement("line", {
+    x1: 15,
+    y1: 17.985,
+    x2: 9,
+    y2: 11.985,
+    stroke: "#F93A3A"
+  }))));
+};
+
+export default SvgSelfDestructIcon;

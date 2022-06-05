@@ -1,0 +1,35 @@
+var _path, _path2, _path3, _path4;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+import * as React from "react";
+
+var SvgSortIcon = function SvgSortIcon(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    viewBox: "0 0 16 18",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M4.25 0.375C4.66421 0.375 5 0.710786 5 1.125V10.125C5 10.5392 4.66421 10.875 4.25 10.875C3.83579 10.875 3.5 10.5392 3.5 10.125V1.125C3.5 0.710786 3.83579 0.375 4.25 0.375Z",
+    fill: "#333333"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M11.75 7.125C12.1642 7.125 12.5 7.46079 12.5 7.875V16.875C12.5 17.2892 12.1642 17.625 11.75 17.625C11.3358 17.625 11 17.2892 11 16.875V7.875C11 7.46079 11.3358 7.125 11.75 7.125Z",
+    fill: "#333333"
+  })), _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M3.71967 0.59467C4.01256 0.301777 4.48744 0.301777 4.78033 0.59467L7.78033 3.59467C8.07322 3.88756 8.07322 4.36244 7.78033 4.65533C7.48744 4.94822 7.01256 4.94822 6.71967 4.65533L4.25 2.18566L1.78033 4.65533C1.48744 4.94822 1.01256 4.94822 0.71967 4.65533C0.426777 4.36244 0.426777 3.88756 0.71967 3.59467L3.71967 0.59467Z",
+    fill: "#333333"
+  })), _path4 || (_path4 = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M8.21967 13.3447C8.51256 13.0518 8.98744 13.0518 9.28033 13.3447L11.75 15.8143L14.2197 13.3447C14.5126 13.0518 14.9874 13.0518 15.2803 13.3447C15.5732 13.6376 15.5732 14.1124 15.2803 14.4053L12.2803 17.4053C11.9874 17.6982 11.5126 17.6982 11.2197 17.4053L8.21967 14.4053C7.92678 14.1124 7.92678 13.6376 8.21967 13.3447Z",
+    fill: "#333333"
+  })));
+};
+
+export default SvgSortIcon;

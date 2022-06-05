@@ -1,0 +1,24 @@
+var _path, _path2, _path3;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+import * as React from "react";
+
+var SvgMuted = function SvgMuted(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    viewBox: "0 0 18 18",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M7.92517 13.2561L13.0498 17.0998C13.1818 17.1995 13.3408 17.2498 13.4998 17.2498C13.6138 17.2498 13.7293 17.2235 13.835 17.171C14.0893 17.0435 14.2498 16.784 14.2498 16.4998V6.93152L7.92517 13.2561Z",
+    fill: "currentColor"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M1.5001 12.7499H5.25002L14.2498 3.75011V1.50016C14.2498 1.21592 14.0893 0.956427 13.8351 0.82893C13.5816 0.703683 13.2771 0.729932 13.0498 0.900178L7.25022 5.25008H1.5001C1.08536 5.25008 0.750122 5.58532 0.750122 6.00006V11.9999C0.750122 12.4147 1.08536 12.7499 1.5001 12.7499Z",
+    fill: "currentColor"
+  })), _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    d: "M0.75017 17.9998C0.558174 17.9998 0.366179 17.9263 0.219932 17.78C-0.0733108 17.4868 -0.0733108 17.0128 0.219932 16.7195L16.7195 0.219932C17.0128 -0.0733108 17.4868 -0.0733108 17.78 0.219932C18.0733 0.513175 18.0733 0.987164 17.78 1.28041L1.28041 17.78C1.13416 17.9263 0.942165 17.9998 0.75017 17.9998Z",
+    fill: "currentColor"
+  })));
+};
+
+export default SvgMuted;

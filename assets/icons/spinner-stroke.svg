@@ -1,0 +1,20 @@
+var _path;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+import * as React from "react";
+
+var SvgSpinnerStroke = function SvgSpinnerStroke(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    viewBox: "0 0 24 24",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M12 2C6.47715 2 2 6.47715 2 12C2 13.4594 2.312 14.8433 2.87198 16.0907C3.09816 16.5945 2.87307 17.1863 2.36923 17.4125C1.86538 17.6387 1.27358 17.4136 1.0474 16.9098C0.37405 15.4098 0 13.7472 0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C9.10927 24 6.45491 22.9766 4.38336 21.2733C3.95677 20.9226 3.89529 20.2924 4.24605 19.8658C4.59681 19.4392 5.22698 19.3777 5.65358 19.7285C7.38041 21.1483 9.58941 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z",
+    fill: "currentColor"
+  })));
+};
+
+export default SvgSpinnerStroke;

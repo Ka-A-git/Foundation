@@ -1,0 +1,22 @@
+var _path;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+import * as React from "react";
+
+var SvgCheckIcon = function SvgCheckIcon(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    fill: "none",
+    height: 16,
+    viewBox: "0 0 10 16",
+    width: 10,
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    clipRule: "evenodd",
+    d: "m9.19164 4.77774c.39889.38198.41261 1.01499.03063 1.41388l-4.78791 4.99998c-.1947.2033-.46606.3152-.74747.3081-.28142-.0071-.5468-.1325-.731-.3454l-2.212079-2.55643c-.361379-.41764-.31577-1.04916.10187-1.41054.417639-.36138 1.049159-.31577 1.410539.10187l1.49333 1.72582 4.02821-4.20664c.38197-.39889 1.01499-.41261 1.41388-.03064z",
+    fill: "currentColor",
+    fillRule: "evenodd"
+  })));
+};
+
+export default SvgCheckIcon;

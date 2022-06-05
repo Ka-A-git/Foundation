@@ -1,0 +1,21 @@
+var _path, _path2;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+import * as React from "react";
+
+var SvgUnderReviewIcon = function SvgUnderReviewIcon(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    viewBox: "0 0 46 44",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M45.8855 42.4942L23.8855 0.49425C23.5405 -0.16475 22.4585 -0.16475 22.1145 0.49425L0.114481 42.4942C-0.0485194 42.8042 -0.0365194 43.1762 0.144481 43.4752C0.325481 43.7742 0.649481 43.9582 0.999481 43.9582H44.9995C45.3495 43.9582 45.6735 43.7752 45.8545 43.4762C46.0355 43.1772 46.0475 42.8042 45.8855 42.4942Z",
+    fill: "#EFD358"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M21.9995 16.9583C21.9995 16.4063 22.4475 15.9583 22.9995 15.9583C23.5515 15.9583 23.9995 16.4063 23.9995 16.9583V29.9583C23.9995 30.5103 23.5515 30.9583 22.9995 30.9583C22.4475 30.9583 21.9995 30.5103 21.9995 29.9583V16.9583ZM22.9995 37.9583C21.8945 37.9583 20.9995 37.0633 20.9995 35.9583C20.9995 34.8533 21.8945 33.9583 22.9995 33.9583C24.1045 33.9583 24.9995 34.8533 24.9995 35.9583C24.9995 37.0633 24.1045 37.9583 22.9995 37.9583Z",
+    fill: "white"
+  })));
+};
+
+export default SvgUnderReviewIcon;
