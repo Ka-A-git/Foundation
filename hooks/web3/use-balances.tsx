@@ -1,5 +1,5 @@
 import { BigNumber } from 'ethers';
-import { useQuery, UseQueryOptions } from 'react-query';
+import { useQuery, UseQueryOptions } from 'react-query'; 
 import { useProvider } from 'wagmi';
 import { CallOverrides } from '@ethersproject/contracts';
 import { BaseProvider } from '@ethersproject/providers';
