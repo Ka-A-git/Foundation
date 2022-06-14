@@ -3,7 +3,7 @@ import { useQuery, UseQueryOptions } from 'react-query';
 import { QueryCacheKey } from 'types/Queries';
 
 const ETH_USD_PRICE_URL =
-  'https://api.coingecko.com/api/v3/simple/price?vs_currencies=usd&ids=ethereum';
+  'https://api.coingecko.com/api/v3/simple/price?vs_currencies=usd&ids=ethereum'; 
 
 interface EthereumPrice {
   ethereum: {
