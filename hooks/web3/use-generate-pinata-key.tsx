@@ -2,7 +2,7 @@ import { useQuery, UseQueryResult } from 'react-query';
 import { generatePinataApiKey } from 'queries/uploads';
 
 export interface PinataApiKeyResult {
-  JWT: string;
+  JWT: string; 
   pinata_api_key: string;
   pinata_api_secret: string;
 }
