@@ -9,7 +9,7 @@ import { fromBNDec } from 'utils/numbers';
 
 import { QueryCacheKey } from 'types/Queries';
 
-export interface GetBalancesVariables {
+export interface GetBalancesVariables { 
   publicKey: string;
   overrides?: CallOverrides;
 }
