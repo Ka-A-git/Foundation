@@ -4,7 +4,7 @@ import { GetStaticPropsResult } from 'next';
 import InnerParagraph from 'components/homepage/InnerParagraph';
 import MarketingFooter from 'components/homepage/MarketingFooter';
 import MarketingHero from 'components/homepage/MarketingHero';
-import MarketingPage from 'components/homepage/MarketingPage';
+import MarketingPage from 'components/homepage/MarketingPage'; 
 import SplitSection from 'components/homepage/SplitSection';
 
 import { onGridPx } from 'utils/styles';
