@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { GetStaticPropsResult } from 'next';
 import { useRouter } from 'next/router';
 import { is } from 'ramda';
-import { useAccount } from 'wagmi';
+import { useAccount } from 'wagmi'; 
 
 import Page from 'components/Page';
 import Body from 'components/base/Body';
