@@ -1,5 +1,5 @@
 import { useCallback } from 'react';
-
+ 
 import MarketingHero from 'components/homepage/MarketingHero';
 import MarketingFooter from 'components/homepage/MarketingFooter';
 import MarketingPage from 'components/homepage/MarketingPage';
