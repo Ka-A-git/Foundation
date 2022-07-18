@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect } from 'react'; 
 import { GetStaticPropsResult } from 'next';
 import { useRouter } from 'next/router';
 import { is } from 'ramda';
