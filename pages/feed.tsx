@@ -30,7 +30,7 @@ import AuthRequiredPage from 'components/auth/AuthRequiredPage';
 interface FeedPageProps {
   featuredCreators: Account[];
   featuredCreatorUsernames: string[];
-}
+} 
 
 export default function Feed(props: FeedPageProps): JSX.Element {
   const { featuredCreators } = props;
