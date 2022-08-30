@@ -11,7 +11,7 @@ export default function TransitionPane(
   const { children } = props;
 
   return (
-    <motion.div
+    <motion.div 
       style={{
         display: 'flex',
         flexDirection: 'column',
