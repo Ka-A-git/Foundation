@@ -5,7 +5,7 @@ interface TransitionPaneProps {
   children: ReactNode;
 }
 
-export default function TransitionPane(  
+export default function TransitionPane(   
   props: TransitionPaneProps
 ): JSX.Element {
   const { children } = props;
