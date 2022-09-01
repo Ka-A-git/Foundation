@@ -4,7 +4,7 @@ import { ArtworkFragmentExtended, ArtworkEventFragment, UserFragment, ArtworkFra
 import { useQuery, UseQueryOptions } from 'react-query';
 import { hasuraFetcher } from 'lib/clients/graphql';
 export type ArtworkByUuidVariables = Types.Exact<{
-  id: Types.Scalars['uuid'];
+  id: Types.Scalars['uuid']; 
 }>;
 
 
