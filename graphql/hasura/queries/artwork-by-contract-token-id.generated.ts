@@ -5,7 +5,7 @@ import { useQuery, UseQueryOptions } from 'react-query';
 import { hasuraFetcher } from 'lib/clients/graphql';
 export type ArtworkByContractTokenIdVariables = Types.Exact<{
   contractSlug: Types.Scalars['citext'];
-  tokenId: Types.Scalars['Int'];
+  tokenId: Types.Scalars['Int']; 
 }>;
 
 
