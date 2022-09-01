@@ -1,5 +1,5 @@
 import * as Types from '../types-hasura.generated';
-
+ 
 import { LatestArtworkEventFragment, ArtworkSplitRecipientsFragment, AuctionFragment, BidFragment, ArtworkFragment, MostRecentAuctionFragment, MostRecentOfferFragment, MostRecentBuyNowFragment, MostRecentPrivateSaleFragment, UserFragment } from '../hasura-fragments.generated';
 import { useQuery, UseQueryOptions } from 'react-query';
 import { hasuraFetcher } from 'lib/clients/graphql';
