@@ -13,7 +13,7 @@ export interface GetBalancesVariables {
   publicKey: string;
   overrides?: CallOverrides;
 }
-
+ 
 type GetBalances = [BigNumber, BigNumber, BigNumber, string];
 
 type UserBalances = {
